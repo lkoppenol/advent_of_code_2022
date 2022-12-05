@@ -35,7 +35,7 @@ pub fn main() {
         es.append(&mut stacks[to-1]);
         stacks[to-1] = es;
     }
-    println!("");
+    println!();
 
     for s in &stacks {
         println!("{:?}", s);
