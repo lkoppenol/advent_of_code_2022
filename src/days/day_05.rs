@@ -1,7 +1,5 @@
 #![warn(clippy::all, clippy::pedantic)]
 
-extern crate core;
-
 use std::fs;
 use regex::Regex;
 use regex::Captures;
